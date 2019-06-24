@@ -2,7 +2,7 @@
   "name": "@portable-profiles/directory",
   "version": "0.0.2",
   "description": "Directory of portable profile servers",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "format": "prettier --write \"./src/**/*.{js,jsx,json,ts,tsx}\"",
     "format:check": "prettier --check \"./src/**/*.{js,jsx,json,ts,tsx}\"",
