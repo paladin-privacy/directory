@@ -10,7 +10,4 @@ export const schema = buildSchema(`
   type Query {
     recommend: [Server]
   }
-
-  type Mutation {
-  }
 `);
