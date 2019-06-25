@@ -17,9 +17,10 @@ export const hardcodedServers = [
 ];
 
 export function createGraphQL(persistence: IPersistence) {
-  const resolvers = {
+  const rootValue = {
     recommend: () => hardcodedServers,
   };
-  return (query: any, context: any, variables: any) =>
-    graphql(schema, query, resolvers, context, variables);
+  const query = (q: any, context: any, variables: any) =>
+    graphql(schema, q, rootValue, context, variables);
+  return { rootValue, schema, query };
 }

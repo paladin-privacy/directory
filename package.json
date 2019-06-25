@@ -1,6 +1,6 @@
 {
   "name": "@portable-profiles/directory",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Directory of portable profile servers",
   "main": "dist/index.js",
   "scripts": {
